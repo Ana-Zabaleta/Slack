@@ -1,0 +1,347 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #4a154b;
+  --text-color: white;
+  --font-family: Roboto, sans-serif;
+}
+.b-header {
+  background-color: var(--primary-color);
+  font-family: var(--font-family);
+  width: 100vw;
+  height: 110vh;
+}
+.b-navbar_img {
+  width: 20%;
+}
+.b-navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  margin-left: 20px;
+}
+.b-navbar-menu {
+  align-items: center;
+  margin-left: 20px;
+}
+.b-enlaces {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.b-navbar_enlaces {
+  padding: 10px;
+  text-decoration: none;
+  margin: 10px 8px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+}
+
+.b-navbar_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+}
+.b-navbar_link {
+  text-decoration: none;
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.b-navbar_right-button {
+  color: var(--primary-color);
+  text-decoration: none;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.--flex {
+  display: flex;
+}
+
+/* parte interna del header nav */
+
+/* header parte grande */
+
+.b-header_info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 50px 80px;
+  margin-right: 20px;
+}
+.b-header_info-left {
+  width: 48%;
+
+  color: var(--text-color);
+}
+.b-header_info-right {
+  padding-left: 30px;
+  padding-right: 0;
+  width: 60%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.b-header_title-first {
+  font-size: 45px;
+  margin: 0;
+}
+.b-header_title-second {
+  font-size: 45px;
+  margin-top: 10px;
+  color: #ebb22f;
+  margin-bottom: 0;
+}
+.b-header_info-right_img {
+  max-width: 100%;
+}
+
+.b-header_buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.b-header-button {
+  padding: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 0;
+  margin: 10px 0px;
+  width: 95%;
+}
+
+.b-header-google {
+  border-radius: 10px;
+  border: 0;
+  padding: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #35c4ef;
+  color: var(--text-color);
+  margin: 10px 0px;
+  width: 95%;
+  display: flex;
+  height: 58px;
+  align-items: center;
+}
+
+.b-button_img {
+  width: 8%;
+  margin-right: 80px;
+  margin-left: 38px;
+}
+
+/* A partir de aqui MAIN */
+
+main {
+  background-color: #f4ede4;
+  padding-top: 10px;
+  width: 100vw;
+}
+
+.b-clients {
+  align-items: center;
+}
+
+.b-clients-title {
+  font-size: 25px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: var(--font-family);
+}
+
+.b-main_clients {
+  margin-top: 80px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.b-main_clients-img {
+  width: 8%;
+  height: 100%;
+  margin: 0px 60px;
+
+  box-sizing: border-box;
+}
+
+.b-main_clients-img_NY {
+  width: 20%;
+}
+
+/* Aqui la parte de Datos del Main*/
+
+.b-main_data {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+  margin-top: 90px;
+  font-family: var(--font-family);
+}
+
+.b-main_data-right {
+  width: 48%;
+  font-family: var(--font-family);
+  padding-right: 40px;
+}
+
+.b-main_data-left {
+  width: 45%;
+  margin: 0;
+  box-sizing: border-box;
+  margin-right: 15px;
+}
+
+.b-main_data-left_img {
+  max-width: 100%;
+  border-top-right-radius: 70%;
+  border-bottom-right-radius: 70%;
+}
+.b-main_title {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.b-main_paragrah {
+  margin-bottom: 30px;
+}
+
+.b-main_link {
+  color: #35c4ef;
+}
+
+.b-main_data2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+  margin-top: 90px;
+  font-family: var(--font-family);
+}
+
+.b-main_data2-left {
+  width: 50%;
+  margin-left: 70px;
+  box-sizing: border-box;
+  margin-right: 25px;
+}
+.b-main_data2-right {
+  margin-left: 30px;
+  box-sizing: border-box;
+}
+.b-main_data2-right_img {
+  height: 100%;
+  max-width: 100%;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+/* Aquí la parte de conoce slack empresas*/
+
+.b-main_meet {
+  background-color: white;
+  font-family: var(--font-family);
+  width: 100%;
+  padding-top: 100px;
+  height: 700px;
+}
+
+.b-main_meet-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.b-main_meet-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.b-main_meet-paragraph {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.b-main_meet-buttons {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.b-meet_button-left {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  color: var(--text-color);
+}
+
+.b-meet_button-right {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  color: var(--primary-color);
+}
+
+.b-main_porcentaje {
+  margin-top: 140px;
+}
+.b-main_porcentaje-ul {
+  list-style: none;
+}
+
+.b-main_porcentaje-li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 80px;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.b-main_porcentaje-span {
+  font-size: 20px;
+  text-align: center;
+}
+
+/*Aqui la parte de vídeo de Vodafone-*/
+
+.b-main_video {
+  background-color: white;
+}
+
+.b-main_video-left {
+  width: 50%;
+  box-sizing: border-box;
+  margin-right: 25px;
+}
+
+.b-main_video-left_img {
+  max-width: 100%;
+  border-top-right-radius: 70%;
+  border-bottom-right-radius: 70%;
+}
+.b-main_video-right {
+  width: 40%;
+  font-family: var(--font-family);
+  padding-right: 40px;
+  padding-left: 30px;
+}
+.b-main_video_title {
+  font-size: 40px;
+  margin-bottom: 0;
+}

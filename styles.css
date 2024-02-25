@@ -146,13 +146,14 @@ body {
 /* A partir de aqui MAIN */
 
 main {
-  background-color: #f4ede4;
   padding-top: 10px;
   width: 100vw;
+  background-color: #f4ede4;
 }
 
 .b-clients {
   align-items: center;
+  background-color: #f4ede4;
 }
 
 .b-clients-title {
@@ -184,6 +185,8 @@ main {
 /* Aqui la parte de Datos del Main*/
 
 .b-main_data {
+  background-color: #f4ede4;
+
   display: flex;
   justify-content: space-between;
   padding: 50px 0px;
@@ -367,6 +370,8 @@ main {
   justify-content: space-evenly;
   margin-top: 70px;
   margin-bottom: 70px;
+  background-color: #f4ede4;
+  padding: 90px 40px;
 }
 .b-galley__container {
   width: 20%;
@@ -405,11 +410,13 @@ main {
 
 .b-descubrir {
   background-color: var(--primary-color);
-  padding-top: 30px;
+  padding-top: 70px;
   width: 100%;
-  height: 180px;
+  height: 400px;
   color: var(--text-color);
   font-family: var(--font-family);
+  border-bottom-left-radius: 90%;
+  border-bottom-right-radius: 90%;
 }
 
 .b-descubrir_title {
@@ -443,4 +450,44 @@ main {
   color: var(--text-color);
   background-color: whi;
   cursor: pointer;
+}
+
+/* footer */
+.b-footer {
+  background-color: white;
+  font-family: var(--font-family);
+  margin-top: 40px;
+  width: 100%;
+}
+
+.b-footer_container {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100%;
+  margin-top: 50px;
+  padding: 40px;
+}
+.b-footer_img-logo {
+  width: 7%;
+}
+.b-footer_img {
+  width: 100%;
+}
+
+.b-footer_ul {
+  list-style: none;
+  font-family: var(--font-family);
+}
+.b-footer_li {
+  color: gray;
+  padding: 10px 0px;
+  font-size: 12px;
+}
+
+.b-footer_li:first-child {
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: black;
 }
